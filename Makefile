@@ -2,6 +2,8 @@
 
 VIRTUALENV=_hytest
 
+.PHONY: hy py exe hcl clean setup
+
 hy: $(VIRTUALENV)/bin/hy hello.hy
 	$^
 py: wrapper.py $(VIRTUALENV)/bin/hy hello.hy
