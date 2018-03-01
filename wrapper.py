@@ -6,5 +6,5 @@ import hello
 
 
 if "__main__" == __name__:
-    print("hell")
+    print("running via python...")
     hello.simple_conversation()
