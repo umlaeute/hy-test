@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['wrapper.py'],
-             pathex=['C:\\Users\\zmoelnig\\Development\\GitHub\\hy-test'],
+             pathex=['.'],
              binaries=[],
              datas=[],
              hiddenimports=[],
