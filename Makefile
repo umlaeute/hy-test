@@ -10,6 +10,9 @@ py: wrapper.py $(VIRTUALENV)/bin/hy hello.hy
 exe: dist/wrapper/wrapper
 	$^
 
+hcl:
+	$(VIRTUALENV)/bin/python -c "import hy.core.language"
+
 clean:
 	rm -rf build dist
 
