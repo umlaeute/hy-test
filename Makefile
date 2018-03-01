@@ -25,4 +25,4 @@ $(VIRTUALENV)/bin/pyinstaller: $(VIRTUALENV)/bin/python
 $(VIRTUALENV)/bin/hy: $(VIRTUALENV)/bin/python
 	$(VIRTUALENV)/bin/pip install hy
 
-
+install: $(VIRTUALENV)/bin/hy $(VIRTUALENV)/bin/pyinstaller
