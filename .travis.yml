@@ -1,0 +1,10 @@
+language: python
+
+install:
+  - make setup
+
+script:
+  - make hy
+  - make py
+  - make hcl
+  - make exe
