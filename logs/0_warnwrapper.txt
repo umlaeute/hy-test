@@ -1,0 +1,34 @@
+missing module named resource - imported by posix, C:\hy-test\wrapper.py
+missing module named posix - imported by os, C:\hy-test\wrapper.py
+missing module named _posixsubprocess - imported by subprocess, C:\hy-test\wrapper.py
+missing module named ce - imported by os, C:\hy-test\wrapper.py
+missing module named clr - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.console.ironpython_console, C:\hy-test\wrapper.py
+missing module named IronPythonConsole - imported by pyreadline.console.ironpython_console, C:\hy-test\wrapper.py
+missing module named StringIO - imported by pyreadline.py3k_compat, C:\hy-test\wrapper.py
+missing module named org - imported by pickle, C:\hy-test\wrapper.py
+missing module named System - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.keysyms.ironpython_keysyms, pyreadline.console.ironpython_console, pyreadline.rlmain, C:\hy-test\wrapper.py
+missing module named sets - imported by pyreadline.keysyms.common, C:\hy-test\wrapper.py
+missing module named startup - imported by pyreadline.keysyms.common, pyreadline.keysyms.keysyms, C:\hy-test\wrapper.py
+missing module named console - imported by pyreadline.console.ansi, C:\hy-test\wrapper.py
+excluded module named _frozen_importlib - imported by importlib, C:\hy-test\wrapper.py
+missing module named _winreg - imported by platform, appdirs, C:\hy-test\wrapper.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, C:\hy-test\wrapper.py
+missing module named 'java.lang' - imported by platform, C:\hy-test\wrapper.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\hy-test\wrapper.py
+missing module named termios - imported by tty, clint.textui.cols, C:\hy-test\wrapper.py, getpass
+missing module named _dummy_threading - imported by dummy_threading, C:\hy-test\wrapper.py
+missing module named grp - imported by tarfile, shutil, C:\hy-test\wrapper.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, C:\hy-test\wrapper.py, getpass
+missing module named 'org.python' - imported by copy, C:\hy-test\wrapper.py, xml.sax
+missing module named hello - imported by C:\hy-test\wrapper.py
+missing module named __builtin__ - imported by hy._compat
+missing module named UserDict - imported by clint.packages.ordereddict
+missing module named fcntl - imported by clint.textui.cols
+missing module named 'com.sun' - imported by appdirs
+missing module named com - imported by appdirs
+missing module named 'rpython.tool' - imported by rply.lexergenerator
+missing module named 'rpython.rtyper' - imported by rply.lexergenerator
+missing module named 'rpython.rlib' - imported by rply.lexergenerator
+missing module named 'rpython.annotator' - imported by rply.lexergenerator
+missing module named rpython - imported by rply.lexergenerator
