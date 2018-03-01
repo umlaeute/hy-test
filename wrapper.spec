@@ -21,7 +21,7 @@ exe = EXE(pyz,
           options,
           exclude_binaries=True,
           name='wrapper',
-          debug=False,
+          debug=True,
           strip=False,
           upx=True,
           console=True )
