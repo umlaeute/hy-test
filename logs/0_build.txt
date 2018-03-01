@@ -1,0 +1,305 @@
+46 INFO: PyInstaller: 3.4.dev0+36e90ff8e
+46 INFO: Python: 3.4.4
+46 INFO: Platform: Windows-7-6.1.7601-SP1
+46 DEBUG: Testing for UPX ...
+46 INFO: UPX is not available.
+62 DEBUG: script: wrapper.py
+62 INFO: Extending PYTHONPATH with paths
+['C:\\hy-test',
+ 'C:\\hy-test']
+62 INFO: checking Analysis
+62 INFO: Building Analysis because out00-Analysis.toc is non existent
+62 INFO: Initializing module dependency graph...
+62 INFO: Initializing module graph hooks...
+62 INFO: Analyzing base_library.zip ...
+62 DEBUG: Collecting submodules for encodings
+125 DEBUG: collect_submodules - Found submodules: {'encodings.cp869', 'encodings.cp864', 'encodings.cp865', 'encodings.base64_codec', 'encodings.cp1255', 'encodings.uu_codec', 'encodings.cp775', 'encodings.unicode_internal', 'encodings.cp1026', 'encodings.utf_7', 'encodings.johab', 'encodings.iso8859_6', 'encodings.koi8_r', 'encodings.cp861', 'encodings.iso2022_jp_2004', 'encodings.mac_iceland', 'encodings.iso2022_jp_3', 'encodings.iso8859_13', 'encodings.big5', 'encodings.utf_32', 'encodings.cp863', 'encodings.shift_jis', 'encodings.utf_32_le', 'encodings.cp437', 'encodings.cp273', 'encodings.iso8859_14', 'encodings.cp950', 'encodings.cp1250', 'encodings.iso2022_jp_ext', 'encodings.cp860', 'encodings.mac_centeuro', 'encodings.cp862', 'encodings.ptcp154', 'encodings.cp1253', 'encodings.iso8859_7', 'encodings.ascii', 'encodings.cp1252', 'encodings.euc_jisx0213', 'encodings.iso8859_8', 'encodings.iso8859_1', 'encodings.bz2_codec', 'encodings.iso8859_5', 'encodings.mac_croatian', 'encodings.mac_turkish', 'encodings.iso8859_10', 'encodings.utf_16_be', 'encodings.iso8859_9', 'encodings.cp1258', 'encodings.cp857', 'encodings.hp_roman8', 'encodings.undefined', 'encodings.big5hkscs', 'encodings.gb18030', 'encodings.utf_16_le', 'encodings.hz', 'encodings.palmos', 'encodings.rot_13', 'encodings.iso2022_jp_1', 'encodings.shift_jisx0213', 'encodings.quopri_codec', 'encodings.mac_romanian', 'encodings.gb2312', 'encodings.mac_roman', 'encodings.utf_16', 'encodings.cp1254', 'encodings.cp858', 'encodings.cp866', 'encodings.unicode_escape', 'encodings.cp424', 'encodings.mac_cyrillic', 'encodings.utf_32_be', 'encodings.cp875', 'encodings.mbcs', 'encodings.cp037', 'encodings.cp856', 'encodings.cp1256', 'encodings.mac_arabic', 'encodings.tis_620', 'encodings.euc_kr', 'encodings.cp737', 'encodings.idna', 'encodings.cp874', 'encodings.charmap', 'encodings.iso8859_2', 'encodings', 'encodings.cp720', 'encodings.zlib_codec', 'encodings.cp500', 'encodings.iso2022_jp', 'encodings.cp852', 'encodings.shift_jis_2004', 'encodings.gbk', 'encodings.iso8859_11', 'encodings.latin_1', 'encodings.mac_farsi', 'encodings.raw_unicode_escape', 'encodings.iso2022_jp_2', 'encodings.cp850', 'encodings.hex_codec', 'encodings.cp1125', 'encodings.mac_greek', 'encodings.mac_latin2', 'encodings.koi8_u', 'encodings.cp1140', 'encodings.utf_8_sig', 'encodings.cp1257', 'encodings.iso8859_4', 'encodings.cp949', 'encodings.cp855', 'encodings.iso2022_kr', 'encodings.cp1251', 'encodings.utf_8', 'encodings.iso8859_16', 'encodings.aliases', 'encodings.euc_jis_2004', 'encodings.cp65001', 'encodings.euc_jp', 'encodings.cp1006', 'encodings.iso8859_15', 'encodings.iso8859_3', 'encodings.punycode', 'encodings.cp932'}
+125 DEBUG: Collecting submodules for collections
+187 DEBUG: collect_submodules - Found submodules: {'collections', 'collections.__main__', 'collections.abc'}
+3281 INFO: Processing pre-find module path hook   distutils
+4734 DEBUG: Adding python files to base_library.zip
+4750 DEBUG: Hidden import: hy.core.language
+4750 INFO: Analyzing hidden import 'hy.core.language'
+5218 INFO: Processing pre-safe import module hook   win32com
+5218 DEBUG: win32com: extending __path__ with dir 'C:\\Python34\\lib\\site-packages\\win32comext'
+5375 ERROR: Hidden import 'hy.core.language' not found
+5375 DEBUG: Hidden import: codecs
+5375 DEBUG: Hidden import 'codecs' already found
+5375 INFO: running Analysis out00-Analysis.toc
+5375 DEBUG: Analyzing C:\Python34\python3.exe
+5390 DEBUG: Skipping KERNEL32.dll dependency of python3.exe
+5390 DEBUG: Adding python34.dll dependency of python3.exe from C:\Windows\system32\python34.dll
+5390 DEBUG: Adding MSVCR100.dll dependency of python3.exe from C:\Windows\system32\msvcr100.dll
+5390 DEBUG: Analyzing C:\Windows\system32\python34.dll
+5531 DEBUG: Skipping SHELL32.dll dependency of python34.dll
+5531 DEBUG: Skipping USER32.dll dependency of python34.dll
+5531 DEBUG: Skipping ADVAPI32.dll dependency of python34.dll
+5546 DEBUG: Skipping KERNEL32.dll dependency of python34.dll
+5546 DEBUG: Analyzing C:\Windows\system32\msvcr100.dll
+5734 DEBUG: Skipping KERNEL32.dll dependency of msvcr100.dll
+5734 INFO: Caching module hooks...
+5750 INFO: Analyzing wrapper.py
+5750 INFO: Loading module hooks...
+5750 INFO: Loading module hook "hook-distutils.py"...
+5750 INFO: Loading module hook "hook-win32com.py"...
+6187 INFO: Loading module hook "hook-xml.py"...
+6484 INFO: Loading module hook "hook-appdirs.py"...
+6484 INFO: Excluding import 'win32com'
+6484 INFO:   Removing import of win32com.shell from module appdirs
+6484 INFO:   Removing import of win32com.shell.shellcon from module appdirs
+6484 INFO:   Removing import of win32com.shell.shell from module appdirs
+6484 INFO: Loading module hook "hook-encodings.py"...
+6484 DEBUG: Collecting submodules for encodings
+6562 DEBUG: collect_submodules - Found submodules: {'encodings.cp869', 'encodings.cp864', 'encodings.cp865', 'encodings.base64_codec', 'encodings.cp1255', 'encodings.uu_codec', 'encodings.cp775', 'encodings.unicode_internal', 'encodings.cp1026', 'encodings.utf_7', 'encodings.johab', 'encodings.iso8859_6', 'encodings.koi8_r', 'encodings.cp861', 'encodings.iso2022_jp_2004', 'encodings.mac_iceland', 'encodings.iso2022_jp_3', 'encodings.iso8859_13', 'encodings.big5', 'encodings.utf_32', 'encodings.cp863', 'encodings.shift_jis', 'encodings.utf_32_le', 'encodings.cp437', 'encodings.cp273', 'encodings.iso8859_14', 'encodings.cp950', 'encodings.cp1250', 'encodings.iso2022_jp_ext', 'encodings.cp860', 'encodings.mac_centeuro', 'encodings.cp862', 'encodings.ptcp154', 'encodings.cp1253', 'encodings.iso8859_7', 'encodings.ascii', 'encodings.cp1252', 'encodings.euc_jisx0213', 'encodings.iso8859_8', 'encodings.iso8859_1', 'encodings.bz2_codec', 'encodings.iso8859_5', 'encodings.mac_croatian', 'encodings.mac_turkish', 'encodings.iso8859_10', 'encodings.utf_16_be', 'encodings.iso8859_9', 'encodings.cp1258', 'encodings.cp857', 'encodings.hp_roman8', 'encodings.undefined', 'encodings.big5hkscs', 'encodings.gb18030', 'encodings.utf_16_le', 'encodings.hz', 'encodings.palmos', 'encodings.rot_13', 'encodings.iso2022_jp_1', 'encodings.shift_jisx0213', 'encodings.quopri_codec', 'encodings.mac_romanian', 'encodings.gb2312', 'encodings.mac_roman', 'encodings.utf_16', 'encodings.cp1254', 'encodings.cp858', 'encodings.cp866', 'encodings.unicode_escape', 'encodings.cp424', 'encodings.mac_cyrillic', 'encodings.utf_32_be', 'encodings.cp875', 'encodings.mbcs', 'encodings.cp037', 'encodings.cp856', 'encodings.cp1256', 'encodings.mac_arabic', 'encodings.tis_620', 'encodings.euc_kr', 'encodings.cp737', 'encodings.idna', 'encodings.cp874', 'encodings.charmap', 'encodings.iso8859_2', 'encodings', 'encodings.cp720', 'encodings.zlib_codec', 'encodings.cp500', 'encodings.iso2022_jp', 'encodings.cp852', 'encodings.shift_jis_2004', 'encodings.gbk', 'encodings.iso8859_11', 'encodings.latin_1', 'encodings.mac_farsi', 'encodings.raw_unicode_escape', 'encodings.iso2022_jp_2', 'encodings.cp850', 'encodings.hex_codec', 'encodings.cp1125', 'encodings.mac_greek', 'encodings.mac_latin2', 'encodings.koi8_u', 'encodings.cp1140', 'encodings.utf_8_sig', 'encodings.cp1257', 'encodings.iso8859_4', 'encodings.cp949', 'encodings.cp855', 'encodings.iso2022_kr', 'encodings.cp1251', 'encodings.utf_8', 'encodings.iso8859_16', 'encodings.aliases', 'encodings.euc_jis_2004', 'encodings.cp65001', 'encodings.euc_jp', 'encodings.cp1006', 'encodings.iso8859_15', 'encodings.iso8859_3', 'encodings.punycode', 'encodings.cp932'}
+6562 INFO: Loading module hook "hook-pydoc.py"...
+6562 INFO: Loading module hook "hook-pythoncom.py"...
+6796 INFO: Loading module hook "hook-pywintypes.py"...
+7046 DEBUG: Looking for egg data files...
+7046 INFO: Looking for ctypes DLLs
+7046 DEBUG: Scanning platform for shared libraries or dlls
+7046 DEBUG: Scanning clint.textui.cols for shared libraries or dlls
+7062 DEBUG: Scanning C:\hy-test\wrapper.py for shared libraries or dlls
+7062 DEBUG: Scanning pyreadline.clipboard.win32_clipboard for shared libraries or dlls
+7062 DEBUG: Scanning pyreadline.keysyms.keysyms for shared libraries or dlls
+7062 DEBUG: Scanning clint.packages.colorama.win32 for shared libraries or dlls
+7062 DEBUG: Scanning pyreadline.console.console for shared libraries or dlls
+7078 DEBUG: Scanning appdirs for shared libraries or dlls
+7078 INFO: Analyzing run-time hooks ...
+7093 INFO: Looking for dynamic libraries
+7093 DEBUG: Analyzing C:\Python34\DLLs\_ssl.pyd
+7093 DEBUG: Skipping GDI32.dll dependency of _ssl.pyd
+7093 DEBUG: Skipping ADVAPI32.dll dependency of _ssl.pyd
+7109 DEBUG: Skipping CRYPT32.dll dependency of _ssl.pyd
+7109 DEBUG: Skipping USER32.dll dependency of _ssl.pyd
+7109 DEBUG: Skipping WS2_32.dll dependency of _ssl.pyd
+7109 DEBUG: Skipping KERNEL32.dll dependency of _ssl.pyd
+7109 DEBUG: Analyzing C:\Python34\DLLs\unicodedata.pyd
+7109 DEBUG: Skipping KERNEL32.dll dependency of unicodedata.pyd
+7109 DEBUG: Analyzing C:\Python34\lib\site-packages\win32\win32api.pyd
+7125 DEBUG: Skipping SHELL32.dll dependency of win32api.pyd
+7125 DEBUG: Skipping ADVAPI32.dll dependency of win32api.pyd
+7125 DEBUG: Adding pywintypes34.dll dependency of win32api.pyd from C:\Python34\lib\site-packages\pypiwin32_system32\pywintypes34.dll
+7125 DEBUG: Skipping USER32.dll dependency of win32api.pyd
+7125 DEBUG: Skipping VERSION.dll dependency of win32api.pyd
+7125 DEBUG: Skipping KERNEL32.dll dependency of win32api.pyd
+7125 DEBUG: Analyzing C:\Python34\lib\site-packages\win32\win32evtlog.pyd
+7140 DEBUG: Skipping KERNEL32.dll dependency of win32evtlog.pyd
+7140 DEBUG: Skipping ADVAPI32.dll dependency of win32evtlog.pyd
+7140 DEBUG: Analyzing C:\Python34\DLLs\_ctypes.pyd
+7140 DEBUG: Skipping OLEAUT32.dll dependency of _ctypes.pyd
+7156 DEBUG: Skipping ole32.dll dependency of _ctypes.pyd
+7156 DEBUG: Skipping KERNEL32.dll dependency of _ctypes.pyd
+7156 DEBUG: Analyzing C:\Python34\DLLs\pyexpat.pyd
+7156 DEBUG: Skipping KERNEL32.dll dependency of pyexpat.pyd
+7156 DEBUG: Analyzing C:\Python34\DLLs\_hashlib.pyd
+7156 DEBUG: Skipping GDI32.dll dependency of _hashlib.pyd
+7156 DEBUG: Skipping ADVAPI32.dll dependency of _hashlib.pyd
+7171 DEBUG: Skipping USER32.dll dependency of _hashlib.pyd
+7171 DEBUG: Skipping KERNEL32.dll dependency of _hashlib.pyd
+7171 DEBUG: Analyzing C:\Python34\DLLs\select.pyd
+7171 DEBUG: Skipping KERNEL32.dll dependency of select.pyd
+7171 DEBUG: Skipping WS2_32.dll dependency of select.pyd
+7171 DEBUG: Analyzing C:\Python34\DLLs\_bz2.pyd
+7171 DEBUG: Skipping KERNEL32.dll dependency of _bz2.pyd
+7171 DEBUG: Analyzing C:\Python34\DLLs\_lzma.pyd
+7187 DEBUG: Skipping KERNEL32.dll dependency of _lzma.pyd
+7187 DEBUG: Analyzing C:\Python34\DLLs\_socket.pyd
+7187 DEBUG: Skipping WS2_32.dll dependency of _socket.pyd
+7187 DEBUG: Skipping KERNEL32.dll dependency of _socket.pyd
+7187 DEBUG: Analyzing C:\Python34\lib\site-packages\pypiwin32_system32\pywintypes34.dll
+7203 DEBUG: Skipping OLEAUT32.dll dependency of pywintypes34.dll
+7203 DEBUG: Skipping ADVAPI32.dll dependency of pywintypes34.dll
+7218 DEBUG: Skipping ole32.dll dependency of pywintypes34.dll
+7218 DEBUG: Skipping USER32.dll dependency of pywintypes34.dll
+7218 DEBUG: Skipping KERNEL32.dll dependency of pywintypes34.dll
+7218 INFO: Looking for eggs
+7218 INFO: Using Python library C:\Windows\system32\python34.dll
+7218 INFO: Found binding redirects: 
+[]
+7218 DEBUG: Erroneous edge (47, None, <PyiModuleGraph>, 'posix') for node MissingModule('posix',). 
+7218 DEBUG: Erroneous edge (186, None, <PyiModuleGraph>, '_posixsubprocess') for node MissingModule('_posixsubprocess',). 
+7218 INFO: Warnings written to C:\hy-test\build\wrapper\warnwrapper.txt
+7234 DEBUG: Erroneous edge (1921, None, <PyiModuleGraph>, 'C:\\hy-test\\wrapper.py') for node Script('C:\\hy-test\\wrapper.py',). 
+7234 DEBUG: Erroneous edge (1591, None, <PyiModuleGraph>, '_bootlocale') for node SourceModule('_bootlocale', 'C:\\Python34\\lib\\_bootlocale.py'). 
+7234 DEBUG: Erroneous edge (1597, None, <PyiModuleGraph>, '_collections_abc') for node SourceModule('_collections_abc', 'C:\\Python34\\lib\\_collections_abc.py'). 
+7234 DEBUG: Erroneous edge (127, None, <PyiModuleGraph>, '_datetime') for node BuiltinModule('_datetime',). 
+7234 DEBUG: Erroneous edge (1795, None, <PyiModuleGraph>, '_json') for node BuiltinModule('_json',). 
+7234 DEBUG: Erroneous edge (332, None, <PyiModuleGraph>, '_pickle') for node BuiltinModule('_pickle',). 
+7234 DEBUG: Erroneous edge (186, None, <PyiModuleGraph>, '_posixsubprocess') for node MissingModule('_posixsubprocess',). 
+7234 DEBUG: Erroneous edge (20, None, <PyiModuleGraph>, '_sre') for node BuiltinModule('_sre',). 
+7234 DEBUG: Erroneous edge (519, None, <PyiModuleGraph>, '_ssl') for node Extension('_ssl', 'C:\\Python34\\DLLs\\_ssl.pyd'). 
+7234 DEBUG: Erroneous edge (1617, None, <PyiModuleGraph>, '_weakrefset') for node SourceModule('_weakrefset', 'C:\\Python34\\lib\\_weakrefset.py'). 
+7234 DEBUG: Erroneous edge (1611, None, <PyiModuleGraph>, 'abc') for node SourceModule('abc', 'C:\\Python34\\lib\\abc.py'). 
+7234 DEBUG: Erroneous edge (4, None, <PyiModuleGraph>, 'codecs') for node SourceModule('codecs', 'C:\\Python34\\lib\\codecs.py'). 
+7250 DEBUG: Erroneous edge (1608, None, <PyiModuleGraph>, 'codecs') for node SourceModule('codecs', 'C:\\Python34\\lib\\codecs.py'). 
+7250 DEBUG: Erroneous edge (1598, None, <PyiModuleGraph>, 'collections') for node Package('collections', 'C:\\Python34\\lib\\collections\\__init__.py', ['C:\\Python34\\lib\\collections']). 
+7250 DEBUG: Erroneous edge (1602, None, <PyiModuleGraph>, 'collections.__main__') for node SourceModule('collections.__main__', 'C:\\Python34\\lib\\collections\\__main__.py'). 
+7250 DEBUG: Erroneous edge (1605, None, <PyiModuleGraph>, 'collections.abc') for node SourceModule('collections.abc', 'C:\\Python34\\lib\\collections\\abc.py'). 
+7250 DEBUG: Erroneous edge (1594, None, <PyiModuleGraph>, 'copyreg') for node SourceModule('copyreg', 'C:\\Python34\\lib\\copyreg.py'). 
+7250 DEBUG: Erroneous edge (131, None, <PyiModuleGraph>, 'datetime') for node SourceModule('datetime', 'C:\\Python34\\lib\\datetime.py'). 
+7250 DEBUG: Erroneous edge (1458, None, <PyiModuleGraph>, 'encodings') for node Package('encodings', 'C:\\Python34\\lib\\encodings\\__init__.py', ['C:\\Python34\\lib\\encodings']). 
+7250 DEBUG: Erroneous edge (1557, None, <PyiModuleGraph>, 'encodings.aliases') for node SourceModule('encodings.aliases', 'C:\\Python34\\lib\\encodings\\aliases.py'). 
+7250 DEBUG: Erroneous edge (1288, None, <PyiModuleGraph>, 'encodings.ascii') for node SourceModule('encodings.ascii', 'C:\\Python34\\lib\\encodings\\ascii.py'). 
+7250 DEBUG: Erroneous edge (1175, None, <PyiModuleGraph>, 'encodings.base64_codec') for node SourceModule('encodings.base64_codec', 'C:\\Python34\\lib\\encodings\\base64_codec.py'). 
+7250 DEBUG: Erroneous edge (1230, None, <PyiModuleGraph>, 'encodings.big5') for node SourceModule('encodings.big5', 'C:\\Python34\\lib\\encodings\\big5.py'). 
+7250 DEBUG: Erroneous edge (1341, None, <PyiModuleGraph>, 'encodings.big5hkscs') for node SourceModule('encodings.big5hkscs', 'C:\\Python34\\lib\\encodings\\big5hkscs.py'). 
+7250 DEBUG: Erroneous edge (1306, None, <PyiModuleGraph>, 'encodings.bz2_codec') for node SourceModule('encodings.bz2_codec', 'C:\\Python34\\lib\\encodings\\bz2_codec.py'). 
+7250 DEBUG: Erroneous edge (1454, None, <PyiModuleGraph>, 'encodings.charmap') for node SourceModule('encodings.charmap', 'C:\\Python34\\lib\\encodings\\charmap.py'). 
+7250 DEBUG: Erroneous edge (1421, None, <PyiModuleGraph>, 'encodings.cp037') for node SourceModule('encodings.cp037', 'C:\\Python34\\lib\\encodings\\cp037.py'). 
+7250 DEBUG: Erroneous edge (1574, None, <PyiModuleGraph>, 'encodings.cp1006') for node SourceModule('encodings.cp1006', 'C:\\Python34\\lib\\encodings\\cp1006.py'). 
+7250 DEBUG: Erroneous edge (1192, None, <PyiModuleGraph>, 'encodings.cp1026') for node SourceModule('encodings.cp1026', 'C:\\Python34\\lib\\encodings\\cp1026.py'). 
+7250 DEBUG: Erroneous edge (1513, None, <PyiModuleGraph>, 'encodings.cp1125') for node SourceModule('encodings.cp1125', 'C:\\Python34\\lib\\encodings\\cp1125.py'). 
+7250 DEBUG: Erroneous edge (1525, None, <PyiModuleGraph>, 'encodings.cp1140') for node SourceModule('encodings.cp1140', 'C:\\Python34\\lib\\encodings\\cp1140.py'). 
+7250 DEBUG: Erroneous edge (1262, None, <PyiModuleGraph>, 'encodings.cp1250') for node SourceModule('encodings.cp1250', 'C:\\Python34\\lib\\encodings\\cp1250.py'). 
+7250 DEBUG: Erroneous edge (1550, None, <PyiModuleGraph>, 'encodings.cp1251') for node SourceModule('encodings.cp1251', 'C:\\Python34\\lib\\encodings\\cp1251.py'). 
+7250 DEBUG: Erroneous edge (1291, None, <PyiModuleGraph>, 'encodings.cp1252') for node SourceModule('encodings.cp1252', 'C:\\Python34\\lib\\encodings\\cp1252.py'). 
+7250 DEBUG: Erroneous edge (1282, None, <PyiModuleGraph>, 'encodings.cp1253') for node SourceModule('encodings.cp1253', 'C:\\Python34\\lib\\encodings\\cp1253.py'). 
+7250 DEBUG: Erroneous edge (1394, None, <PyiModuleGraph>, 'encodings.cp1254') for node SourceModule('encodings.cp1254', 'C:\\Python34\\lib\\encodings\\cp1254.py'). 
+7250 DEBUG: Erroneous edge (1178, None, <PyiModuleGraph>, 'encodings.cp1255') for node SourceModule('encodings.cp1255', 'C:\\Python34\\lib\\encodings\\cp1255.py'). 
+7250 DEBUG: Erroneous edge (1427, None, <PyiModuleGraph>, 'encodings.cp1256') for node SourceModule('encodings.cp1256', 'C:\\Python34\\lib\\encodings\\cp1256.py'). 
+7250 DEBUG: Erroneous edge (1531, None, <PyiModuleGraph>, 'encodings.cp1257') for node SourceModule('encodings.cp1257', 'C:\\Python34\\lib\\encodings\\cp1257.py'). 
+7250 DEBUG: Erroneous edge (1327, None, <PyiModuleGraph>, 'encodings.cp1258') for node SourceModule('encodings.cp1258', 'C:\\Python34\\lib\\encodings\\cp1258.py'). 
+7250 DEBUG: Erroneous edge (1251, None, <PyiModuleGraph>, 'encodings.cp273') for node SourceModule('encodings.cp273', 'C:\\Python34\\lib\\encodings\\cp273.py'). 
+7250 DEBUG: Erroneous edge (1406, None, <PyiModuleGraph>, 'encodings.cp424') for node SourceModule('encodings.cp424', 'C:\\Python34\\lib\\encodings\\cp424.py'). 
+7250 DEBUG: Erroneous edge (1248, None, <PyiModuleGraph>, 'encodings.cp437') for node SourceModule('encodings.cp437', 'C:\\Python34\\lib\\encodings\\cp437.py'). 
+7250 DEBUG: Erroneous edge (1468, None, <PyiModuleGraph>, 'encodings.cp500') for node SourceModule('encodings.cp500', 'C:\\Python34\\lib\\encodings\\cp500.py'). 
+7250 DEBUG: Erroneous edge (1566, None, <PyiModuleGraph>, 'encodings.cp65001') for node SourceModule('encodings.cp65001', 'C:\\Python34\\lib\\encodings\\cp65001.py'). 
+7250 DEBUG: Erroneous edge (1461, None, <PyiModuleGraph>, 'encodings.cp720') for node SourceModule('encodings.cp720', 'C:\\Python34\\lib\\encodings\\cp720.py'). 
+7250 DEBUG: Erroneous edge (1441, None, <PyiModuleGraph>, 'encodings.cp737') for node SourceModule('encodings.cp737', 'C:\\Python34\\lib\\encodings\\cp737.py'). 
+7265 DEBUG: Erroneous edge (1186, None, <PyiModuleGraph>, 'encodings.cp775') for node SourceModule('encodings.cp775', 'C:\\Python34\\lib\\encodings\\cp775.py'). 
+7265 DEBUG: Erroneous edge (1506, None, <PyiModuleGraph>, 'encodings.cp850') for node SourceModule('encodings.cp850', 'C:\\Python34\\lib\\encodings\\cp850.py'). 
+7265 DEBUG: Erroneous edge (1476, None, <PyiModuleGraph>, 'encodings.cp852') for node SourceModule('encodings.cp852', 'C:\\Python34\\lib\\encodings\\cp852.py'). 
+7265 DEBUG: Erroneous edge (1542, None, <PyiModuleGraph>, 'encodings.cp855') for node SourceModule('encodings.cp855', 'C:\\Python34\\lib\\encodings\\cp855.py'). 
+7265 DEBUG: Erroneous edge (1424, None, <PyiModuleGraph>, 'encodings.cp856') for node SourceModule('encodings.cp856', 'C:\\Python34\\lib\\encodings\\cp856.py'). 
+7265 DEBUG: Erroneous edge (1330, None, <PyiModuleGraph>, 'encodings.cp857') for node SourceModule('encodings.cp857', 'C:\\Python34\\lib\\encodings\\cp857.py'). 
+7265 DEBUG: Erroneous edge (1397, None, <PyiModuleGraph>, 'encodings.cp858') for node SourceModule('encodings.cp858', 'C:\\Python34\\lib\\encodings\\cp858.py'). 
+7265 DEBUG: Erroneous edge (1270, None, <PyiModuleGraph>, 'encodings.cp860') for node SourceModule('encodings.cp860', 'C:\\Python34\\lib\\encodings\\cp860.py'). 
+7265 DEBUG: Erroneous edge (1209, None, <PyiModuleGraph>, 'encodings.cp861') for node SourceModule('encodings.cp861', 'C:\\Python34\\lib\\encodings\\cp861.py'). 
+7265 DEBUG: Erroneous edge (1276, None, <PyiModuleGraph>, 'encodings.cp862') for node SourceModule('encodings.cp862', 'C:\\Python34\\lib\\encodings\\cp862.py'). 
+7265 DEBUG: Erroneous edge (1237, None, <PyiModuleGraph>, 'encodings.cp863') for node SourceModule('encodings.cp863', 'C:\\Python34\\lib\\encodings\\cp863.py'). 
+7265 DEBUG: Erroneous edge (14, None, <PyiModuleGraph>, 'encodings.cp864') for node SourceModule('encodings.cp864', 'C:\\Python34\\lib\\encodings\\cp864.py'). 
+7265 DEBUG: Erroneous edge (17, None, <PyiModuleGraph>, 'encodings.cp865') for node SourceModule('encodings.cp865', 'C:\\Python34\\lib\\encodings\\cp865.py'). 
+7265 DEBUG: Erroneous edge (1400, None, <PyiModuleGraph>, 'encodings.cp866') for node SourceModule('encodings.cp866', 'C:\\Python34\\lib\\encodings\\cp866.py'). 
+7265 DEBUG: Erroneous edge (11, None, <PyiModuleGraph>, 'encodings.cp869') for node SourceModule('encodings.cp869', 'C:\\Python34\\lib\\encodings\\cp869.py'). 
+7265 DEBUG: Erroneous edge (1451, None, <PyiModuleGraph>, 'encodings.cp874') for node SourceModule('encodings.cp874', 'C:\\Python34\\lib\\encodings\\cp874.py'). 
+7265 DEBUG: Erroneous edge (1415, None, <PyiModuleGraph>, 'encodings.cp875') for node SourceModule('encodings.cp875', 'C:\\Python34\\lib\\encodings\\cp875.py'). 
+7265 DEBUG: Erroneous edge (1588, None, <PyiModuleGraph>, 'encodings.cp932') for node SourceModule('encodings.cp932', 'C:\\Python34\\lib\\encodings\\cp932.py'). 
+7265 DEBUG: Erroneous edge (1539, None, <PyiModuleGraph>, 'encodings.cp949') for node SourceModule('encodings.cp949', 'C:\\Python34\\lib\\encodings\\cp949.py'). 
+7265 DEBUG: Erroneous edge (1259, None, <PyiModuleGraph>, 'encodings.cp950') for node SourceModule('encodings.cp950', 'C:\\Python34\\lib\\encodings\\cp950.py'). 
+7265 DEBUG: Erroneous edge (1562, None, <PyiModuleGraph>, 'encodings.euc_jis_2004') for node SourceModule('encodings.euc_jis_2004', 'C:\\Python34\\lib\\encodings\\euc_jis_2004.py'). 
+7265 DEBUG: Erroneous edge (1296, None, <PyiModuleGraph>, 'encodings.euc_jisx0213') for node SourceModule('encodings.euc_jisx0213', 'C:\\Python34\\lib\\encodings\\euc_jisx0213.py'). 
+7265 DEBUG: Erroneous edge (1571, None, <PyiModuleGraph>, 'encodings.euc_jp') for node SourceModule('encodings.euc_jp', 'C:\\Python34\\lib\\encodings\\euc_jp.py'). 
+7265 DEBUG: Erroneous edge (1438, None, <PyiModuleGraph>, 'encodings.euc_kr') for node SourceModule('encodings.euc_kr', 'C:\\Python34\\lib\\encodings\\euc_kr.py'). 
+7265 DEBUG: Erroneous edge (1346, None, <PyiModuleGraph>, 'encodings.gb18030') for node SourceModule('encodings.gb18030', 'C:\\Python34\\lib\\encodings\\gb18030.py'). 
+7265 DEBUG: Erroneous edge (1384, None, <PyiModuleGraph>, 'encodings.gb2312') for node SourceModule('encodings.gb2312', 'C:\\Python34\\lib\\encodings\\gb2312.py'). 
+7265 DEBUG: Erroneous edge (1486, None, <PyiModuleGraph>, 'encodings.gbk') for node SourceModule('encodings.gbk', 'C:\\Python34\\lib\\encodings\\gbk.py'). 
+7265 DEBUG: Erroneous edge (1510, None, <PyiModuleGraph>, 'encodings.hex_codec') for node SourceModule('encodings.hex_codec', 'C:\\Python34\\lib\\encodings\\hex_codec.py'). 
+7265 DEBUG: Erroneous edge (1333, None, <PyiModuleGraph>, 'encodings.hp_roman8') for node SourceModule('encodings.hp_roman8', 'C:\\Python34\\lib\\encodings\\hp_roman8.py'). 
+7265 DEBUG: Erroneous edge (1354, None, <PyiModuleGraph>, 'encodings.hz') for node SourceModule('encodings.hz', 'C:\\Python34\\lib\\encodings\\hz.py'). 
+7265 DEBUG: Erroneous edge (1448, None, <PyiModuleGraph>, 'encodings.idna') for node SourceModule('encodings.idna', 'C:\\Python34\\lib\\encodings\\idna.py'). 
+7265 DEBUG: Erroneous edge (1473, None, <PyiModuleGraph>, 'encodings.iso2022_jp') for node SourceModule('encodings.iso2022_jp', 'C:\\Python34\\lib\\encodings\\iso2022_jp.py'). 
+7265 DEBUG: Erroneous edge (1366, None, <PyiModuleGraph>, 'encodings.iso2022_jp_1') for node SourceModule('encodings.iso2022_jp_1', 'C:\\Python34\\lib\\encodings\\iso2022_jp_1.py'). 
+7265 DEBUG: Erroneous edge (1503, None, <PyiModuleGraph>, 'encodings.iso2022_jp_2') for node SourceModule('encodings.iso2022_jp_2', 'C:\\Python34\\lib\\encodings\\iso2022_jp_2.py'). 
+7265 DEBUG: Erroneous edge (1214, None, <PyiModuleGraph>, 'encodings.iso2022_jp_2004') for node SourceModule('encodings.iso2022_jp_2004', 'C:\\Python34\\lib\\encodings\\iso2022_jp_2004.py'). 
+7265 DEBUG: Erroneous edge (1222, None, <PyiModuleGraph>, 'encodings.iso2022_jp_3') for node SourceModule('encodings.iso2022_jp_3', 'C:\\Python34\\lib\\encodings\\iso2022_jp_3.py'). 
+7265 DEBUG: Erroneous edge (1267, None, <PyiModuleGraph>, 'encodings.iso2022_jp_ext') for node SourceModule('encodings.iso2022_jp_ext', 'C:\\Python34\\lib\\encodings\\iso2022_jp_ext.py'). 
+7265 DEBUG: Erroneous edge (1547, None, <PyiModuleGraph>, 'encodings.iso2022_kr') for node SourceModule('encodings.iso2022_kr', 'C:\\Python34\\lib\\encodings\\iso2022_kr.py'). 
+7265 DEBUG: Erroneous edge (1302, None, <PyiModuleGraph>, 'encodings.iso8859_1') for node SourceModule('encodings.iso8859_1', 'C:\\Python34\\lib\\encodings\\iso8859_1.py'). 
+7265 DEBUG: Erroneous edge (1318, None, <PyiModuleGraph>, 'encodings.iso8859_10') for node SourceModule('encodings.iso8859_10', 'C:\\Python34\\lib\\encodings\\iso8859_10.py'). 
+7265 DEBUG: Erroneous edge (1489, None, <PyiModuleGraph>, 'encodings.iso8859_11') for node SourceModule('encodings.iso8859_11', 'C:\\Python34\\lib\\encodings\\iso8859_11.py'). 
+7265 DEBUG: Erroneous edge (1225, None, <PyiModuleGraph>, 'encodings.iso8859_13') for node SourceModule('encodings.iso8859_13', 'C:\\Python34\\lib\\encodings\\iso8859_13.py'). 
+7265 DEBUG: Erroneous edge (1254, None, <PyiModuleGraph>, 'encodings.iso8859_14') for node SourceModule('encodings.iso8859_14', 'C:\\Python34\\lib\\encodings\\iso8859_14.py'). 
+7265 DEBUG: Erroneous edge (1577, None, <PyiModuleGraph>, 'encodings.iso8859_15') for node SourceModule('encodings.iso8859_15', 'C:\\Python34\\lib\\encodings\\iso8859_15.py'). 
+7265 DEBUG: Erroneous edge (1556, None, <PyiModuleGraph>, 'encodings.iso8859_16') for node SourceModule('encodings.iso8859_16', 'C:\\Python34\\lib\\encodings\\iso8859_16.py'). 
+7265 DEBUG: Erroneous edge (1457, None, <PyiModuleGraph>, 'encodings.iso8859_2') for node SourceModule('encodings.iso8859_2', 'C:\\Python34\\lib\\encodings\\iso8859_2.py'). 
+7265 DEBUG: Erroneous edge (1580, None, <PyiModuleGraph>, 'encodings.iso8859_3') for node SourceModule('encodings.iso8859_3', 'C:\\Python34\\lib\\encodings\\iso8859_3.py'). 
+7265 DEBUG: Erroneous edge (1534, None, <PyiModuleGraph>, 'encodings.iso8859_4') for node SourceModule('encodings.iso8859_4', 'C:\\Python34\\lib\\encodings\\iso8859_4.py'). 
+7265 DEBUG: Erroneous edge (1309, None, <PyiModuleGraph>, 'encodings.iso8859_5') for node SourceModule('encodings.iso8859_5', 'C:\\Python34\\lib\\encodings\\iso8859_5.py'). 
+7265 DEBUG: Erroneous edge (1203, None, <PyiModuleGraph>, 'encodings.iso8859_6') for node SourceModule('encodings.iso8859_6', 'C:\\Python34\\lib\\encodings\\iso8859_6.py'). 
+7265 DEBUG: Erroneous edge (1285, None, <PyiModuleGraph>, 'encodings.iso8859_7') for node SourceModule('encodings.iso8859_7', 'C:\\Python34\\lib\\encodings\\iso8859_7.py'). 
+7265 DEBUG: Erroneous edge (1299, None, <PyiModuleGraph>, 'encodings.iso8859_8') for node SourceModule('encodings.iso8859_8', 'C:\\Python34\\lib\\encodings\\iso8859_8.py'). 
+7265 DEBUG: Erroneous edge (1324, None, <PyiModuleGraph>, 'encodings.iso8859_9') for node SourceModule('encodings.iso8859_9', 'C:\\Python34\\lib\\encodings\\iso8859_9.py'). 
+7265 DEBUG: Erroneous edge (1200, None, <PyiModuleGraph>, 'encodings.johab') for node SourceModule('encodings.johab', 'C:\\Python34\\lib\\encodings\\johab.py'). 
+7265 DEBUG: Erroneous edge (1206, None, <PyiModuleGraph>, 'encodings.koi8_r') for node SourceModule('encodings.koi8_r', 'C:\\Python34\\lib\\encodings\\koi8_r.py'). 
+7265 DEBUG: Erroneous edge (1522, None, <PyiModuleGraph>, 'encodings.koi8_u') for node SourceModule('encodings.koi8_u', 'C:\\Python34\\lib\\encodings\\koi8_u.py'). 
+7265 DEBUG: Erroneous edge (1492, None, <PyiModuleGraph>, 'encodings.latin_1') for node SourceModule('encodings.latin_1', 'C:\\Python34\\lib\\encodings\\latin_1.py'). 
+7265 DEBUG: Erroneous edge (1430, None, <PyiModuleGraph>, 'encodings.mac_arabic') for node SourceModule('encodings.mac_arabic', 'C:\\Python34\\lib\\encodings\\mac_arabic.py'). 
+7265 DEBUG: Erroneous edge (1273, None, <PyiModuleGraph>, 'encodings.mac_centeuro') for node SourceModule('encodings.mac_centeuro', 'C:\\Python34\\lib\\encodings\\mac_centeuro.py'). 
+7265 DEBUG: Erroneous edge (1312, None, <PyiModuleGraph>, 'encodings.mac_croatian') for node SourceModule('encodings.mac_croatian', 'C:\\Python34\\lib\\encodings\\mac_croatian.py'). 
+7265 DEBUG: Erroneous edge (1409, None, <PyiModuleGraph>, 'encodings.mac_cyrillic') for node SourceModule('encodings.mac_cyrillic', 'C:\\Python34\\lib\\encodings\\mac_cyrillic.py'). 
+7265 DEBUG: Erroneous edge (1495, None, <PyiModuleGraph>, 'encodings.mac_farsi') for node SourceModule('encodings.mac_farsi', 'C:\\Python34\\lib\\encodings\\mac_farsi.py'). 
+7265 DEBUG: Erroneous edge (1516, None, <PyiModuleGraph>, 'encodings.mac_greek') for node SourceModule('encodings.mac_greek', 'C:\\Python34\\lib\\encodings\\mac_greek.py'). 
+7265 DEBUG: Erroneous edge (1217, None, <PyiModuleGraph>, 'encodings.mac_iceland') for node SourceModule('encodings.mac_iceland', 'C:\\Python34\\lib\\encodings\\mac_iceland.py'). 
+7265 DEBUG: Erroneous edge (1519, None, <PyiModuleGraph>, 'encodings.mac_latin2') for node SourceModule('encodings.mac_latin2', 'C:\\Python34\\lib\\encodings\\mac_latin2.py'). 
+7265 DEBUG: Erroneous edge (1387, None, <PyiModuleGraph>, 'encodings.mac_roman') for node SourceModule('encodings.mac_roman', 'C:\\Python34\\lib\\encodings\\mac_roman.py'). 
+7265 DEBUG: Erroneous edge (1379, None, <PyiModuleGraph>, 'encodings.mac_romanian') for node SourceModule('encodings.mac_romanian', 'C:\\Python34\\lib\\encodings\\mac_romanian.py'). 
+7265 DEBUG: Erroneous edge (1315, None, <PyiModuleGraph>, 'encodings.mac_turkish') for node SourceModule('encodings.mac_turkish', 'C:\\Python34\\lib\\encodings\\mac_turkish.py'). 
+7265 DEBUG: Erroneous edge (1418, None, <PyiModuleGraph>, 'encodings.mbcs') for node SourceModule('encodings.mbcs', 'C:\\Python34\\lib\\encodings\\mbcs.py'). 
+7265 DEBUG: Erroneous edge (1357, None, <PyiModuleGraph>, 'encodings.palmos') for node SourceModule('encodings.palmos', 'C:\\Python34\\lib\\encodings\\palmos.py'). 
+7265 DEBUG: Erroneous edge (1279, None, <PyiModuleGraph>, 'encodings.ptcp154') for node SourceModule('encodings.ptcp154', 'C:\\Python34\\lib\\encodings\\ptcp154.py'). 
+7265 DEBUG: Erroneous edge (1583, None, <PyiModuleGraph>, 'encodings.punycode') for node SourceModule('encodings.punycode', 'C:\\Python34\\lib\\encodings\\punycode.py'). 
+7265 DEBUG: Erroneous edge (1376, None, <PyiModuleGraph>, 'encodings.quopri_codec') for node SourceModule('encodings.quopri_codec', 'C:\\Python34\\lib\\encodings\\quopri_codec.py'). 
+7265 DEBUG: Erroneous edge (1498, None, <PyiModuleGraph>, 'encodings.raw_unicode_escape') for node SourceModule('encodings.raw_unicode_escape', 'C:\\Python34\\lib\\encodings\\raw_unicode_escape.py'). 
+7265 DEBUG: Erroneous edge (1361, None, <PyiModuleGraph>, 'encodings.rot_13') for node SourceModule('encodings.rot_13', 'C:\\Python34\\lib\\encodings\\rot_13.py'). 
+7265 DEBUG: Erroneous edge (1242, None, <PyiModuleGraph>, 'encodings.shift_jis') for node SourceModule('encodings.shift_jis', 'C:\\Python34\\lib\\encodings\\shift_jis.py'). 
+7265 DEBUG: Erroneous edge (1481, None, <PyiModuleGraph>, 'encodings.shift_jis_2004') for node SourceModule('encodings.shift_jis_2004', 'C:\\Python34\\lib\\encodings\\shift_jis_2004.py'). 
+7265 DEBUG: Erroneous edge (1371, None, <PyiModuleGraph>, 'encodings.shift_jisx0213') for node SourceModule('encodings.shift_jisx0213', 'C:\\Python34\\lib\\encodings\\shift_jisx0213.py'). 
+7265 DEBUG: Erroneous edge (1433, None, <PyiModuleGraph>, 'encodings.tis_620') for node SourceModule('encodings.tis_620', 'C:\\Python34\\lib\\encodings\\tis_620.py'). 
+7265 DEBUG: Erroneous edge (1336, None, <PyiModuleGraph>, 'encodings.undefined') for node SourceModule('encodings.undefined', 'C:\\Python34\\lib\\encodings\\undefined.py'). 
+7265 DEBUG: Erroneous edge (1403, None, <PyiModuleGraph>, 'encodings.unicode_escape') for node SourceModule('encodings.unicode_escape', 'C:\\Python34\\lib\\encodings\\unicode_escape.py'). 
+7265 DEBUG: Erroneous edge (1189, None, <PyiModuleGraph>, 'encodings.unicode_internal') for node SourceModule('encodings.unicode_internal', 'C:\\Python34\\lib\\encodings\\unicode_internal.py'). 
+7265 DEBUG: Erroneous edge (1391, None, <PyiModuleGraph>, 'encodings.utf_16') for node SourceModule('encodings.utf_16', 'C:\\Python34\\lib\\encodings\\utf_16.py'). 
+7265 DEBUG: Erroneous edge (1321, None, <PyiModuleGraph>, 'encodings.utf_16_be') for node SourceModule('encodings.utf_16_be', 'C:\\Python34\\lib\\encodings\\utf_16_be.py'). 
+7265 DEBUG: Erroneous edge (1349, None, <PyiModuleGraph>, 'encodings.utf_16_le') for node SourceModule('encodings.utf_16_le', 'C:\\Python34\\lib\\encodings\\utf_16_le.py'). 
+7265 DEBUG: Erroneous edge (1234, None, <PyiModuleGraph>, 'encodings.utf_32') for node SourceModule('encodings.utf_32', 'C:\\Python34\\lib\\encodings\\utf_32.py'). 
+7265 DEBUG: Erroneous edge (1412, None, <PyiModuleGraph>, 'encodings.utf_32_be') for node SourceModule('encodings.utf_32_be', 'C:\\Python34\\lib\\encodings\\utf_32_be.py'). 
+7265 DEBUG: Erroneous edge (1245, None, <PyiModuleGraph>, 'encodings.utf_32_le') for node SourceModule('encodings.utf_32_le', 'C:\\Python34\\lib\\encodings\\utf_32_le.py'). 
+7265 DEBUG: Erroneous edge (1195, None, <PyiModuleGraph>, 'encodings.utf_7') for node SourceModule('encodings.utf_7', 'C:\\Python34\\lib\\encodings\\utf_7.py'). 
+7265 DEBUG: Erroneous edge (1553, None, <PyiModuleGraph>, 'encodings.utf_8') for node SourceModule('encodings.utf_8', 'C:\\Python34\\lib\\encodings\\utf_8.py'). 
+7265 DEBUG: Erroneous edge (1528, None, <PyiModuleGraph>, 'encodings.utf_8_sig') for node SourceModule('encodings.utf_8_sig', 'C:\\Python34\\lib\\encodings\\utf_8_sig.py'). 
+7265 DEBUG: Erroneous edge (1183, None, <PyiModuleGraph>, 'encodings.uu_codec') for node SourceModule('encodings.uu_codec', 'C:\\Python34\\lib\\encodings\\uu_codec.py'). 
+7265 DEBUG: Erroneous edge (1465, None, <PyiModuleGraph>, 'encodings.zlib_codec') for node SourceModule('encodings.zlib_codec', 'C:\\Python34\\lib\\encodings\\zlib_codec.py'). 
+7281 DEBUG: Erroneous edge (1596, None, <PyiModuleGraph>, 'functools') for node SourceModule('functools', 'C:\\Python34\\lib\\functools.py'). 
+7281 DEBUG: Erroneous edge (187, None, <PyiModuleGraph>, 'gc') for node BuiltinModule('gc',). 
+7281 DEBUG: Erroneous edge (1614, None, <PyiModuleGraph>, 'heapq') for node SourceModule('heapq', 'C:\\Python34\\lib\\heapq.py'). 
+7281 DEBUG: Erroneous edge (1607, None, <PyiModuleGraph>, 'io') for node SourceModule('io', 'C:\\Python34\\lib\\io.py'). 
+7281 DEBUG: Erroneous edge (1610, None, <PyiModuleGraph>, 'keyword') for node SourceModule('keyword', 'C:\\Python34\\lib\\keyword.py'). 
+7281 DEBUG: Erroneous edge (1595, None, <PyiModuleGraph>, 'linecache') for node SourceModule('linecache', 'C:\\Python34\\lib\\linecache.py'). 
+7281 DEBUG: Erroneous edge (1592, None, <PyiModuleGraph>, 'locale') for node SourceModule('locale', 'C:\\Python34\\lib\\locale.py'). 
+7281 DEBUG: Erroneous edge (92, None, <PyiModuleGraph>, 'ntpath') for node SourceModule('ntpath', 'C:\\Python34\\lib\\ntpath.py'). 
+7281 DEBUG: Erroneous edge (1613, None, <PyiModuleGraph>, 'operator') for node SourceModule('operator', 'C:\\Python34\\lib\\operator.py'). 
+7281 DEBUG: Erroneous edge (47, None, <PyiModuleGraph>, 'posix') for node MissingModule('posix',). 
+7296 DEBUG: Erroneous edge (1609, None, <PyiModuleGraph>, 're') for node SourceModule('re', 'C:\\Python34\\lib\\re.py'). 
+7296 DEBUG: Erroneous edge (1590, None, <PyiModuleGraph>, 'reprlib') for node SourceModule('reprlib', 'C:\\Python34\\lib\\reprlib.py'). 
+7296 DEBUG: Erroneous edge (1612, None, <PyiModuleGraph>, 'sre_compile') for node SourceModule('sre_compile', 'C:\\Python34\\lib\\sre_compile.py'). 
+7296 DEBUG: Erroneous edge (1593, None, <PyiModuleGraph>, 'sre_constants') for node SourceModule('sre_constants', 'C:\\Python34\\lib\\sre_constants.py'). 
+7296 DEBUG: Erroneous edge (1615, None, <PyiModuleGraph>, 'sre_parse') for node SourceModule('sre_parse', 'C:\\Python34\\lib\\sre_parse.py'). 
+7296 DEBUG: Erroneous edge (101, None, <PyiModuleGraph>, 'time') for node BuiltinModule('time',). 
+7296 DEBUG: Erroneous edge (1606, None, <PyiModuleGraph>, 'traceback') for node SourceModule('traceback', 'C:\\Python34\\lib\\traceback.py'). 
+7296 DEBUG: Erroneous edge (1589, None, <PyiModuleGraph>, 'types') for node SourceModule('types', 'C:\\Python34\\lib\\types.py'). 
+7312 DEBUG: Erroneous edge (1616, None, <PyiModuleGraph>, 'weakref') for node SourceModule('weakref', 'C:\\Python34\\lib\\weakref.py'). 
+7312 DEBUG: Erroneous edge (955, None, <PyiModuleGraph>, 'zipimport') for node BuiltinModule('zipimport',). 
+7312 INFO: Graph cross-reference written to C:\hy-test\build\wrapper\xref-wrapper.html
+7328 INFO: Graph drawing written to C:\hy-test\build\wrapper\graph-wrapper.dot
+7359 INFO: checking PYZ
+7359 INFO: Building PYZ because out00-PYZ.toc is non existent
+7359 INFO: Building PYZ (ZlibArchive) C:\hy-test\build\wrapper\out00-PYZ.pyz
+8281 INFO: Building PYZ (ZlibArchive) C:\hy-test\build\wrapper\out00-PYZ.pyz completed successfully.
+8296 INFO: checking PKG
+8296 INFO: Building PKG because out00-PKG.toc is non existent
+8296 INFO: Building PKG (CArchive) out00-PKG.pkg
+8312 DEBUG: Compiling C:\Python34\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+8312 DEBUG: Compiling C:\Python34\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+8312 DEBUG: Compiling C:\hy-test\wrapper.py
+8312 DEBUG: Compiling C:\hy-test\wrapper.py
+8312 INFO: Building PKG (CArchive) out00-PKG.pkg completed successfully.
+8312 INFO: Bootloader C:\Python34\lib\site-packages\PyInstaller\bootloader\Windows-32bit\run.exe
+8312 INFO: checking EXE
+8312 INFO: Building EXE because out00-EXE.toc is non existent
+8312 INFO: Building EXE from out00-EXE.toc
+8312 INFO: Appending archive to EXE C:\hy-test\build\wrapper\wrapper.exe
+8312 INFO: Building EXE from out00-EXE.toc completed successfully.
+8328 INFO: checking COLLECT
+8328 INFO: Building COLLECT because out00-COLLECT.toc is non existent
+8328 INFO: Building COLLECT out00-COLLECT.toc
+8390 INFO: Building COLLECT out00-COLLECT.toc completed successfully.

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "wrapper.py", line 5, in <module>
+    import hello
+  File "site-packages\hy\importer.py", line 197, in load_module
+  File "site-packages\hy\importer.py", line 76, in import_file_to_module
+  File "site-packages\hy\importer.py", line 68, in import_file_to_ast
+  File "site-packages\hy\compiler.py", line 2674, in hy_compile
+  File "site-packages\hy\compiler.py", line 382, in __init__
+  File "site-packages\hy\compiler.py", line 74, in load_stdlib
+  File "C:\Python34\lib\site-packages\PyInstaller\loader\pyimod03_importers.py", line 631, in exec_module
+    exec(bytecode, module.__dict__)
+  File "site-packages\hy\core\__init__.py", line 1, in <module>
+ImportError: cannot import name 'reserved'
+[3608] Failed to execute script wrapper
