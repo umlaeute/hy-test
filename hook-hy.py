@@ -1,6 +1,15 @@
 # -*- mode: python -*-
 
-import hy
-import os.path
+#-----------------------------------------------------------------------------
+# Copyright (c) 2017, PyInstaller Development Team.
+#
+# Distributed under the terms of the GNU General Public License with exception
+# for distributing bootloader.
+#
+# The full license is in the file COPYING.txt, distributed with this software.
+#-----------------------------------------------------------------------------
 
-datas = [(os.path.dirname(hy.__file__), 'hy')]
+# Hook for the uniseg module: https://pypi.python.org/pypi/uniseg
+
+from PyInstaller.utils.hooks import collect_data_files
+datas = collect_data_files('hy', include_py_files=True)
