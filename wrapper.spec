@@ -2,7 +2,8 @@
 
 block_cipher = None
 
-options = [ ('v', None, 'OPTION'), ('W ignore', None, 'OPTION') ]
+options = []
+#options += [ ('v', None, 'OPTION'), ('W ignore', None, 'OPTION') ]
 a = Analysis(['wrapper.py'],
              pathex=['.'],
              binaries=[],
