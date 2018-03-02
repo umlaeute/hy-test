@@ -2,8 +2,7 @@
 
 block_cipher = None
 
-options = []
-#options += [ ('v', None, 'OPTION'), ('W ignore', None, 'OPTION') ]
+
 a = Analysis(['wrapper.py'],
              pathex=['.'],
              binaries=[],
@@ -19,17 +18,16 @@ pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
           a.scripts,
-          options,
           exclude_binaries=True,
           name='wrapper',
           debug=False,
           strip=False,
-          upx=False,
+          upx=True,
           console=True )
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
                a.datas,
                strip=False,
-               upx=False,
+               upx=True,
                name='wrapper')
