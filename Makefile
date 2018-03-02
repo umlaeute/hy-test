@@ -1,6 +1,7 @@
 #!/usr/bin/env make -f
 
 VIRTUALENV=_hytest
+PYIFLAGS += --additional-hooks-dir .
 
 .PHONY: hy py exe hcl clean setup
 
