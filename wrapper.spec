@@ -1,10 +1,5 @@
 # -*- mode: python -*-
 
-import hy
-import os.path
-
-hydir = os.path.dirname(hy.__file__)
-
 block_cipher = None
 
 options = []
@@ -12,7 +7,7 @@ options = []
 a = Analysis(['wrapper.py'],
              pathex=['.'],
              binaries=[],
-             datas=[(hydir, "hy")],
+             datas=[],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
